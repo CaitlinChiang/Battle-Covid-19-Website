@@ -1,6 +1,6 @@
 /*Introduction*/
 #donateIntro {
-	background-image: url(/Images/donateBG.jpg);
+	background-color: #370909;
 	background-attachment: fixed;
 	background-position: center;
 	min-height: 100vh;
@@ -208,10 +208,17 @@
 	#retrive_verse form {
 		text-align: center;
 	}
-	#retrieve_verse form input[type=text] {
+	#retrieve_verse form input[type=text], #retrieve_verse form input[type=integer] {
 		margin: 0;
+		text-align: center;
 	}
 	#donateIntro_text h2 {
-		padding-top: 15px;
+		padding-top: 25px;
+	}
+	#donateInfo {
+		margin-bottom: 10px;
+	}
+	#verseText h1 {
+		padding: 10px;
 	}
 }

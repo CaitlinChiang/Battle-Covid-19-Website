@@ -20,7 +20,7 @@ function DisplayHomePage() {
 				<div class="container">
 					<div id="pandemicInfo" class="overflow-container">
 						<h3>Resources with valuable information regarding the pandemic:</h3>
-						<div class="slideRight">
+						<div class="slideDown">
 							<ul>
 								<li><a href="https://www.doh.gov.ph/2019-nCoV">Department of Health Updates</a></li>
 								<li><a href="https://www.inquirer.net/home?utm_expid=.xLwjUJ__ST6egtVH31jwAA.1&utm_referrer=">Inquirer</a></li>

@@ -1,6 +1,6 @@
 /*Introduction*/
 #healthIntro {
-	background-image: url(/Images/lungsBG.jpg);
+	background-color: #370909;
 	min-height: 100vh;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -80,11 +80,15 @@
 #healthInfo ul li {
 	margin-top: 5px;
 	font-size: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #healthInfo ul a {
 	color: lightcoral;
 	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #healthInfo ul a:hover {
@@ -158,6 +162,6 @@
 		margin-top: 10px;
 	}
 	#healthIntro_text h2 {
-		padding-top: 15px;
+		padding-top: 25px;
 	}
 }
