@@ -163,4 +163,7 @@
 	#healthIntro_text h2 {
 		padding-top: 25px;
 	}
+	#display_statements p {
+		padding-bottom: 20px;
+	}
 }
