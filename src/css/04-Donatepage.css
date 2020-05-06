@@ -99,7 +99,7 @@
 	background-color: #000000;
 	width: 100%;
 	min-height: 200px;
-	margin-top: 430px;
+	margin-top: 450px;
 	border-radius: 10px;
 	text-align: center;
 	display: inline;
@@ -216,8 +216,5 @@
 	}
 	#verseText h1 {
 		padding: 10px;
-	}
-	#versesSection {
-		margin-top: 10px;
 	}
 }
