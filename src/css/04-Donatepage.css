@@ -217,4 +217,7 @@
 	#verseText h1 {
 		padding: 10px;
 	}
+	#versesSection {
+		margin-top: 10px;
+	}
 }
