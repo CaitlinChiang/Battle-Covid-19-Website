@@ -176,4 +176,7 @@ footer {
 	#homeIntro_text h2 {
 		padding-top: 25px;
 	}
+	#countryStats {
+		padding-bottom: 10px;
+	}
 }
