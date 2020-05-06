@@ -1,0 +1,58 @@
+/*Global*/
+html {
+	scroll-behavior: smooth;
+}
+
+button {
+	letter-spacing: 1px;
+	font-size: 17px;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	padding: 7px;
+	background: linear-gradient(90deg, #dc1c13, #FF7979);
+}
+
+button:hover {
+	font-weight: bold;
+}
+
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.highlight {
+	color: #DC143C;
+}
+
+span {
+	font-weight: bold;
+}
+
+#warning {
+	color: #808080;
+}
+
+.overflow-container {
+    flex: 1;
+    overflow-y: scroll;
+    max-height: 350px;
+    margin-top: 15px;
+}

@@ -1,0 +1,68 @@
+/*Navigation Bar*/
+header {
+	background: #000000;
+	min-height: 15px;
+	overflow: hidden;
+  	position: fixed;
+  	top: 0;
+  	width: 100%; 
+  	z-index: 9999;
+}
+
+.navbar_buttons {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.navbar_buttons button {
+	margin-left: 20px;
+	margin-right: 20px;
+	background: transparent;
+	border: none;
+}
+
+.navbar_buttons button:hover::before {
+	transform: scaleX(1);
+	transform-origin: center;
+}
+
+.navbar_buttons button::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	background-color: #DC143C;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	transform-origin: center;
+	transition: transform 0.4s ease-out;
+}
+
+#navbar_text {
+	margin-top: 20px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+#navbar_text p {
+	color: #ffffff;
+	font-size: 25px;
+	display: inline;
+	letter-spacing: 5px;
+}
+
+
+
+@media(max-width: 768px) {
+	.navbar_buttons,
+	#navbar_text {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header {
+		position: absolute;
+	}
+}
