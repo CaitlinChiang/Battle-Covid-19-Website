@@ -1,17 +1,15 @@
 /*Introduction*/
 #homeIntro {
-	background-color: #370909;
+	background: #0B0202;
 	min-height: 100vh;
-	background-repeat: no-repeat;
-   	background-color: #000000;
 	text-align: center;
 	color: #ffffff;
 }
 
 #homeIntro_text {
 	margin-top: 150px;
-	float: right;
-	width: 600px;
+	float: center;
+	text-align: center;
 }
 
 #homeIntro_text h2 {
@@ -22,14 +20,12 @@
 #homeIntro_text h4 {
 	margin-top: 0px;
 	font-size: 25px;
-	float: left;
+	margin-bottom: 5px;
 }
 
 #homeIntro_text p {
 	font-size: 20px;
-	float: left;
 	margin-top: 0;
-	text-align: left;
 }
 
 .downArrow {
