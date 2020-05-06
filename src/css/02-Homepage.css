@@ -139,6 +139,10 @@
 	margin-bottom: 5px;
 }
 
+#countryStats {
+	padding-bottom: 10px;
+}
+
 .stats_buttons button {
 	margin-top: 15px;
 	margin-left: 10px;
