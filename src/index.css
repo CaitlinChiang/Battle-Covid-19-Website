@@ -56,3 +56,11 @@ span {
     max-height: 350px;
     margin-top: 15px;
 }
+
+
+
+@media(max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+}
