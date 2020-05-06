@@ -223,4 +223,11 @@
 	#verseText h1 {
 		padding: 10px;
 	}
+	#donateInfo ul a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#donateInfo ul {
+		padding-bottom: 10px;
+	}
 }
