@@ -20,7 +20,7 @@ class Verse extends Component {
 		const verse = event.target.elements.verse.value
 		const bibleverse_call = await fetch(`https://bible-api.com/${book}+${chapter}:${verse}`)
 		const bibleverse = await bibleverse_call.json()
-		try { 
+		if (book.trim() !== "" && chapter.trim() !== "" && verse.trim() !== "") {
 			this.setState({
 				reference: bibleverse.reference,
 				bookname: bibleverse.book_name,
@@ -30,7 +30,7 @@ class Verse extends Component {
 
 				displayVerse: true
 			})
-		} catch {
+		} else {
 			alert('We are sorry, but we could not find the verse that you were looking for.')
 		}
 	}

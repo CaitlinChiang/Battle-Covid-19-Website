@@ -41,7 +41,7 @@ class Statistics extends Component {
 		const country = event.target.elements.country.value
 		const countryStats_call = await fetch(`https://coronavirus-19-api.herokuapp.com/countries/${country}`)
 		const countryStats = await countryStats_call.json()
-		if (country !== "") {
+		if (country.trim() !== "") {
 			this.setState({
 				displayStats: true,
 
