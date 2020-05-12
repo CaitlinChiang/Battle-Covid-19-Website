@@ -4,6 +4,7 @@ import Navbar from './components/01-NavBar/navbar'
 import DisplayHomePage from './components/02-HomePage/HomePage'
 import DisplayHealthPage from './components/03-HealthPage/HealthPage'
 import DisplayDonatePage from './components/04-DonatePage/DonatePage'
+import Footer from './components/05-Footer/footer'
 
 
 class App extends Component {
@@ -54,9 +55,12 @@ class App extends Component {
          return (
             <div>
                 <Navbar goHome={this.goHome} goHealth={this.goHealth} goDonate={this.goDonate } />
+
                 {this.state.screen_Home ? <DisplayHomePage /> : null}
                 {this.state.screen_Health ? <DisplayHealthPage /> : null}
                 {this.state.screen_Donation ? <DisplayDonatePage /> : null}
+
+                <Footer goHome={this.goHome} goHealth={this.goHealth} goDonate={this.goDonate } />
             </div>
         )
     }

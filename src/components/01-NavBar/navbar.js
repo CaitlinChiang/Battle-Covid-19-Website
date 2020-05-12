@@ -6,7 +6,7 @@ function Navbar(props) {
 		<header>
 			<div class="container">
 				<div class="navbar_buttons">
-					<button onClick={props.goHome} id="homeButton">HOME</button>
+					<button onClick={props.goHome} id="homeButton">NEWS</button>
 					<button onClick={props.goHealth} id="healthButton">HEALTH</button>
 					<button onClick={props.goDonate} id="donateButton">DONATE</button>		
 				</div>					

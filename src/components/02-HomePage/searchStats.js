@@ -35,7 +35,7 @@ class Search extends Component {
 				recovered: countryStats.recovered
 			}) 
 		} else {
-			alert('We are sorry, but we do not have the statistics of that country.')
+			alert('Sorry, but we do not have the statistics of that country.')
 		}
 	}
 
@@ -77,7 +77,7 @@ class Search extends Component {
 			<div class="slideDown">
 				<div id="phStatistics">
 					<h5>{this.today()}</h5>
-					<h1>Search Country Covid-19 Statistics</h1>
+					<h1>SEARCH COVID-19 STATISTICS</h1>
 
 					<div class="phStatistics_container">
 						<div class="phStatistics_row">
@@ -96,14 +96,11 @@ class Search extends Component {
 						
 						<div class="phStatistics_row">
 							<div class="phStatistics_col">
-								<h3>Overall Statistics: </h3>
+								<h3><u>Overall Statistics</u></h3>
 							</div>
 
 							<div class="phStatistics_col">
-							</div>
-
-							<div class="phStatistics_col">
-								<h3>Today   : </h3>
+								<h3><u>Today</u></h3>
 							</div>	
 						</div>
 
@@ -112,9 +109,6 @@ class Search extends Component {
 								<p><span>Cases:</span> {this.addCommas(this.state.cases)}</p>							
 								<p><span>Active Cases:</span> {this.addCommas(this.state.activeCases)}</p>
 								<p><span>Critical Cases:</span> {this.addCommas(this.state.criticalCases)}</p>
-							</div>
-
-							<div class="phStatistics_col">
 								<p><span>Tested:</span> {this.addCommas(this.state.tested)}</p>
 								<p><span>Deaths:</span> {this.addCommas(this.state.deaths)}</p>
 								<p><span>Recovered:</span> {this.addCommas(this.state.recovered)}</p>
