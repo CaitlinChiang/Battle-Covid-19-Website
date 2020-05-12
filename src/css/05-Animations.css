@@ -63,7 +63,6 @@
     animation:
         slideDown 0.75s .5s cubic-bezier(0.17,.88,.32,1.27) both,
         fadeIn .25s .5s ease-in both;
-    width: 100%;
 }
 
 @keyframes slideDown {
@@ -75,7 +74,6 @@
     animation:
         slideUp 0.75s .5s cubic-bezier(0.17,.88,.32,1.27) both,
         fadeIn .25s .5s ease-in both;
-    width: 100%;
 }
 
 @keyframes slideUp {

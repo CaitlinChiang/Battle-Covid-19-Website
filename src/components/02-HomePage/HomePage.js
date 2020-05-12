@@ -1,5 +1,5 @@
 import React from 'react'
-import Statistics from './CovidStats'
+import Slider from './statsSlider'
 
 
 function DisplayHomePage() {
@@ -7,6 +7,9 @@ function DisplayHomePage() {
 		<div>
 			<section id="homeIntro">
 				<div class="container">
+					<div id="statsSlider">
+						<Slider />
+					</div>
 					<div id="homeIntro_text" class="fade-in">
 						<h2>Fight Covid-19 | <span class="highlight">Philippines</span></h2>
 						<h4>Dear Countrymen,</h4> <br />
@@ -33,9 +36,6 @@ function DisplayHomePage() {
 								<li><a href="https://philnews.ph/">Philippine News</a></li>
 							</ul>
 						</div>
-					</div>
-					<div>
-						<Statistics />
 					</div>
 				</div>
 			</section>
