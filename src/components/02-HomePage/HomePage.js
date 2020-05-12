@@ -9,8 +9,8 @@ function DisplayHomePage() {
 				<div class="container">
 					<div id="statsSlider">
 						<Slider />
-						<a href="#homeContent"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
 					</div>
+					<a href="#homeContent"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
 				</div>
 			</section>
 

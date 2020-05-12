@@ -31,7 +31,7 @@
 
 /*Statistics Slider*/
 #statistics_slider {
-	background-image: url("/Images/globalImage.png");
+	background-image: url("/Images/2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 10px;
@@ -44,6 +44,24 @@
 	transform: translate(-50%, -50%);
 	position: absolute;
 	align-content: center;
+	animation-name: background-change;
+  	animation-duration: 300s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes background-change {
+  0% {background-image: url("/Images/3.png");}
+  10%{background-image: url("/Images/4.png");}
+  20%{background-image: url("/Images/5.png");}
+  30%{background-image: url("/Images/6.png");}
+  40%{background-image: url("/Images/7.png");}
+  50% {background-image: url("/Images/8.png");}
+  60%{background-image: url("/Images/9.png");}
+  70%{background-image: url("/Images/10.png");}
+  80%{background-image: url("/Images/3.png");}
+  90%{background-image: url("/Images/4.png");}
+  100%{background-image: url("/Images/5.png");}
+
 }
 
 .slide {
