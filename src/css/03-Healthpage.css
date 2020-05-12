@@ -151,5 +151,11 @@
 	}
 	#display_statements p {
 		padding-bottom: 20px;
+	} 
+	#healthIntro a img {
+		display: none;
+	} 
+	#healthInfo {
+		margin-top: 50px;
 	}
 }

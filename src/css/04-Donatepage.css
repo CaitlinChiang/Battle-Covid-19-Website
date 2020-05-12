@@ -206,6 +206,7 @@
 	}
 	#donateInfo {
 		margin-bottom: 20px;
+		margin-top: 220px;
 	}
 	#verseText h1 {
 		padding: 10px;
@@ -216,5 +217,8 @@
 	}
 	#donateInfo ul {
 		padding-bottom: 10px;
+	}
+	#donateIntro a img {
+		display: none;
 	}
 }
