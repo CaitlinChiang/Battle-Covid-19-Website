@@ -74,32 +74,59 @@ class Search extends Component {
 
 	render() {
 		return (
-			<div>
-				<div id="searchStatistics">
-					<div id="countryInput">
-						<form onSubmit={this.getCountryStats} autocomplete="off" id="statisticsForm">
-							<input onChange={this.handleChange} type="text" name="country" value={this.state.country} placeholder="Country (ex. USA)" />
-							<div id="statsButtons" class="stats_buttons">
-								<button class="ripple">Statistics</button>
-								<button onClick={this.clear} class="ripple">Clear</button>
+			<div class="slideDown">
+				<div id="phStatistics">
+					<h5>{this.today()}</h5>
+					<h1>Search Country Covid-19 Statistics</h1>
+
+					<div class="phStatistics_container">
+						<div class="phStatistics_row">
+							<div class="phStatistics_col">
+								<div id="countryInput">
+									<form onSubmit={this.getCountryStats} autocomplete="off" id="statisticsForm">
+										<input onChange={this.handleChange} type="text" name="country" value={this.state.country} placeholder="Country (ex. USA)" />
+										<div id="statsButtons" class="stats_buttons">
+											<button class="ripple">Statistics</button>
+											<button onClick={this.clear} class="ripple">Clear</button>
+										</div>
+									</form>
+								</div>
 							</div>
-						</form>
+						</div>
+						
+						<div class="phStatistics_row">
+							<div class="phStatistics_col">
+								<h3>Overall Statistics: </h3>
+							</div>
+
+							<div class="phStatistics_col">
+							</div>
+
+							<div class="phStatistics_col">
+								<h3>Today   : </h3>
+							</div>	
+						</div>
+
+						<div class="phStatistics_row">
+							<div class="phStatistics_col">
+								<p><span>Cases:</span> {this.addCommas(this.state.cases)}</p>							
+								<p><span>Active Cases:</span> {this.addCommas(this.state.activeCases)}</p>
+								<p><span>Critical Cases:</span> {this.addCommas(this.state.criticalCases)}</p>
+							</div>
+
+							<div class="phStatistics_col">
+								<p><span>Tested:</span> {this.addCommas(this.state.tested)}</p>
+								<p><span>Deaths:</span> {this.addCommas(this.state.deaths)}</p>
+								<p><span>Recovered:</span> {this.addCommas(this.state.recovered)}</p>
+							</div>
+
+							<div class="phStatistics_col">
+								<p><span>Cases:</span> {this.addCommas(this.state.todayCases)}</p>
+								<p><span>Deaths:</span> {this.addCommas(this.state.todayDeaths)}</p>
+							</div>	
+						</div>
 					</div>
-					<div id="countryStats">
-						<h3>TODAY</h3>
-							<p><span>Cases:</span> {this.addCommas(this.state.todayCases)}</p>
-							<p><span>Deaths:</span> {this.addCommas(this.state.todayDeaths)}</p>
-						<h3>OVERALL STATISTICS</h3>
-							<p><span>Cases:</span> {this.addCommas(this.state.cases)}</p>
-							<p><span>Active Cases:</span> {this.addCommas(this.state.activeCases)}</p>
-							<p><span>Critical Cases:</span> {this.addCommas(this.state.criticalCases)}</p>
-							<p><span>Tested:</span> {this.addCommas(this.state.tested)}</p>
-							<p><span>Deaths:</span> {this.addCommas(this.state.deaths)}</p>
-							<p><span>Recovered:</span> {this.addCommas(this.state.recovered)}</p>
-					</div>
-				</div>
-				<div id="searchImage">	
-					<img src="/Images/searchImage.jpg" />
+						
 				</div>
 			</div>
 		)
@@ -107,3 +134,5 @@ class Search extends Component {
 }
 
 export default Search
+
+				

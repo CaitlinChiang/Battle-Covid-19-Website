@@ -9,18 +9,19 @@ function DisplayHomePage() {
 				<div class="container">
 					<div id="statsSlider">
 						<Slider />
+						<a href="#homeContent"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
 					</div>
-					<div id="homeIntro_text" class="fade-in">
-						<h2>Fight Covid-19 | <span class="highlight">Philippines</span></h2>
-						<h4>Dear Countrymen,</h4> <br />
-						<p>Let us fight this pandemic together. It is time to start caring about fellow Filipinos.</p>
-					</div>
-					<a href="#homeContent"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
 				</div>
 			</section>
 
 			<section id="homeContent">
 				<div class="container">
+				<div id="homeIntro_text" class="fade-in">
+						<h2>Fight Covid-19 | <span class="highlight">Philippines</span></h2>
+						<h4>Dear Countrymen,</h4> <br />
+						<p>Let us fight this pandemic together. It is time to start caring about fellow Filipinos.</p>
+					</div>
+					
 					<div id="pandemicInfo" class="overflow-container">
 						<h3>Resources with valuable information regarding the pandemic:</h3>
 						<div class="slideDown">

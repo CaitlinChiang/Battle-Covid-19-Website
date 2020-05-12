@@ -36,13 +36,11 @@ class Global extends Component {
 		return (
 			<div class="slideDown">
 				<div id="globalStatistics">
-					<h1>Global Statistics: {this.today()}</h1>
+					<h5>{this.today()}</h5>
+					<h1>Global Covid-19 Statistics</h1>
 					<p><span>Cases:</span> {this.addCommas(this.state.globalCases)}</p>
 					<p><span>Deaths:</span> {this.addCommas(this.state.globalDeaths)}</p>	
 					<p><span>Recovered:</span> {this.addCommas(this.state.globalRecovered)}</p>
-				</div>
-				<div id="globalImage">
-					<img src="/Images/globalImage.png" />
 				</div>
 			</div>
 		)
