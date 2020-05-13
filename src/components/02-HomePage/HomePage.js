@@ -5,13 +5,9 @@ import Slider from './statsSlider'
 function DisplayHomePage() {
 	return (
 		<div>
+			
 			<section id="homeIntro">
-				<div class="container">
-					<div id="statsSlider">
-						<Slider />
-					</div>
-					<a href="#newsIntro"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
-				</div>
+				<Slider />
 			</section>
 
 			<section id="newsIntro">

@@ -1,11 +1,14 @@
 /*Start of Footer*/
 footer {
-	padding-top: 100px;
 	min-height: 100vh;
 	text-align: center;
 	background-color: #000000;
 	color: #ffffff;
 	padding-bottom: 20px;
+}
+
+p.copyright{
+	font-size: 12px;
 }
 
 /*Start of Button Cards*/
@@ -58,10 +61,10 @@ footer {
 /*End of Footer*/
 
 /*Responsive Codes*/
-@media(max-width: 768px) {
-.card-row {
-  display: block;
-  align-items: center;
-  justify-content: center;
-}
+@media(max-width: 990px) {
+	.card-row {
+	  display: block;
+	  align-items: center;
+	  justify-content: center;
+	}
 }

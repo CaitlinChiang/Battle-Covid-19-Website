@@ -59,7 +59,6 @@ span {
 
 .downArrow {
     animation: bouncing 1s infinite ease-in-out;
-    bottom: 90px;
     height: 30px;
     left: 50%;
     margin-left: -25px;

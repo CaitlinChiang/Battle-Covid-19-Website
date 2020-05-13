@@ -3,7 +3,7 @@ header {
 	background: #000000;
 	min-height: 15px;
 	overflow: hidden;
-  	position: fixed;
+  	position: relative;
   	top: 0;
   	width: 100%; 
   	z-index: 9999;
@@ -66,7 +66,5 @@ header {
 		margin-left: 5px;
 		margin-right: 5px;
 	}
-	header {
-		position: absolute;
-	}
+
 }

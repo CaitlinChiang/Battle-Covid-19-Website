@@ -18,7 +18,7 @@ function Slider() {
 	}
 
 	return (
-		<div>
+		
 			<div class="container" id="statistics_slider">
 				{sliderContents.map((item, index) => {
 					return (
@@ -29,8 +29,9 @@ function Slider() {
 				})}
 				<button style={{ background: `transparent` }} id="goLeft" onClick={goLeft}><i class="arrow left"></i></button>
 				<button style={{ background: `transparent` }} id="goRight" onClick={goRight}><i class="arrow right"></i></button>
+				<a href="#newsIntro"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
 			</div>
-		</div>
+		
 	)
 }
 

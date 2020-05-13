@@ -49,7 +49,7 @@ function Footer(props) {
 
 				</div>
 
-				<p>Website Created by: Caitlin Chiang | Ideas and Resources by: Jeriel Tiu, Pauline Wee</p>
+				<p class="copyright">Website Created by: Caitlin Chiang | Ideas and Resources by: Jeriel Tiu, Pauline Wee</p>
 			</footer>
 	)
 }
