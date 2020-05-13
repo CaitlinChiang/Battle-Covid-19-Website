@@ -75,13 +75,13 @@ class Search extends Component {
 	render() {
 		return (
 			<div class="slideDown">
-				<div id="phStatistics">
+				<div id="searchStatistics">
 					<h5>{this.today()}</h5>
 					<h1>SEARCH COVID-19 STATISTICS</h1>
 
-					<div class="phStatistics_container">
-						<div class="phStatistics_row">
-							<div class="phStatistics_col">
+					<div class="searchStatistics_container">
+						<div class="searchStatistics_row">
+							<div class="searchStatistics_col">
 								<div id="countryInput">
 									<form onSubmit={this.getCountryStats} autocomplete="off" id="statisticsForm">
 										<input onChange={this.handleChange} type="text" name="country" value={this.state.country} placeholder="Country (ex. USA)" />
@@ -94,18 +94,18 @@ class Search extends Component {
 							</div>
 						</div>
 						
-						<div class="phStatistics_row">
-							<div class="phStatistics_col">
-								<h3><u>Overall Statistics</u></h3>
+						<div class="searchStatistics_row">
+							<div class="searchStatistics_col">
+								<h3><u>Overall</u></h3>
 							</div>
 
-							<div class="phStatistics_col">
+							<div class="searchStatistics_col">
 								<h3><u>Today</u></h3>
 							</div>	
 						</div>
 
-						<div class="phStatistics_row">
-							<div class="phStatistics_col">
+						<div class="searchStatistics_row">
+							<div class="searchStatistics_col">
 								<p><span>Cases:</span> {this.addCommas(this.state.cases)}</p>							
 								<p><span>Active Cases:</span> {this.addCommas(this.state.activeCases)}</p>
 								<p><span>Critical Cases:</span> {this.addCommas(this.state.criticalCases)}</p>
@@ -114,7 +114,7 @@ class Search extends Component {
 								<p><span>Recovered:</span> {this.addCommas(this.state.recovered)}</p>
 							</div>
 
-							<div class="phStatistics_col">
+							<div class="searchStatistics_col">
 								<p><span>Cases:</span> {this.addCommas(this.state.todayCases)}</p>
 								<p><span>Deaths:</span> {this.addCommas(this.state.todayDeaths)}</p>
 							</div>	

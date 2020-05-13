@@ -53,7 +53,7 @@ class Philippines extends Component {
 					<h1>PHILIPPINE COVID-19 STATISTICS</h1>
 						<div class="phStatistics_row">
 							<div class="phStatistics_col">
-								<h3><u>Overall Statistics</u></h3>
+								<h3><u>Overall</u></h3>
 							</div>
 
 							<div class="phStatistics_col">

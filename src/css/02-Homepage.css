@@ -87,9 +87,9 @@
 
 .arrow {
   border: solid #FFE6E6;
-  border-width: 0 5px 5px 0;
+  border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 10px;
+  padding: 7px;
 }
 
 .right {
@@ -111,7 +111,12 @@
 	padding-left: 10%;
 	text-align: left;
 	text-shadow: 4px 4px 20px #000000;
-	margin-top: 80px
+	margin-top: 80px;
+	line-height: 80px;
+}
+
+#globalStatistics p{
+	font-size: 50px;
 }
 
 /*Start of phStatistics Styles*/
@@ -154,12 +159,12 @@
 	text-shadow: 4px 4px 20px #000000;
 	font-size: 40px;
 	width: 100%;
-	line-height: 40px;
+	
 	margin-top: 80px
 }
 
 #searchStatistics p{
-	font-size: 35px;
+	font-size: 30px;
 	margin-top:-10px;
 	line-height:20px;
 }
@@ -187,10 +192,6 @@
 	border-radius: 10px;
 }
 
-#searchStatistics {
-	font-size: 18px;
-	margin-top: 5px;
-}
 
 #statisticsForm input[type=text] {
 	background: white;
@@ -300,6 +301,10 @@
 		text-align: left;
 	}
 
+	#globalStatistics p{
+	font-size: 30px;
+}
+
 	#phStatistics {
 	padding-left: 10%;
 	text-align: left;
@@ -316,14 +321,14 @@
 	}
 
 	#phStatistics h3{
-		font-size: 20px;
+		font-size: 25px;
 		margin-top:-10px;
 		line-height:20px;
 		text-decoration: underline 10px;
 	}
 
 	#phStatistics p{
-		font-size: 20px;
+		font-size: 25px;
 		margin-top:-10px;
 		line-height:20px;
 	}
@@ -349,6 +354,37 @@
 	width: 90%;
 	line-height: 40px;
 	margin-top: 50px;
+	}
+
+	#searchStatistics h1{
+
+		line-height:70px;
+	}
+
+	#searchStatistics h3{
+		font-size: 20px;
+		margin-top:-10px;
+		line-height:20px;
+		text-decoration: underline 10px;
+	}
+
+	#searchStatistics p{
+		font-size: 20px;
+		margin-top:-10px;
+		line-height:20px;
+	}
+
+	.searchStatistics_row {
+		display: flex;
+	}
+	  
+	.searchStatistics_col {
+		flex: 50%;
+	}
+	  
+	.searchStatistics_container {
+		width:90%;
+		
 	}
 
 
@@ -391,9 +427,107 @@
 		margin-top: 35%;
 	}
 
-/*Slideshow Size*/
-#homeIntro { height: 850px; }
-#statistics_slider { top: 300px; }
-.slide { height: 850px;}
 
+/*Slideshow Size*/
+#homeIntro { height: 700px; }
+#statistics_slider { top: 150px; }
+.slide { height: 700px;}
+}
+
+@media(max-width: 739px) {
+/*Slideshow Size*/
+#homeIntro { height: 630px; }
+#statistics_slider { top: 220px; }
+.slide { height: 700px;}
+
+#statisticsForm input[type=text] {
+	height: 15px;
+	font-size: 12px;
+    display: inline;
+	text-align: left;
+	color:black;
+	padding: 5px;
+	border-radius: 5px;
+	width: 110px;
+	margin-right:4px;
+}
+
+#statsButtons button {
+	padding: 4px;
+	font-size: 12px;
+	margin-right: 3px;
+	
+}
+
+	#globalStatistics{
+		margin-left: 0;
+		margin-top: 40px;
+		font-size: 30px;
+		line-height: 60px;
+		text-align: left;
+	}
+
+		#globalStatistics p{
+		margin-left: 0;
+		margin-top: 40px;
+		font-size: 25px;
+		line-height: 40px;
+		text-align: left;
+	}
+
+	#searchStatistics {
+	padding-left: 10%;
+	text-align: left;
+	text-shadow: 4px 4px 20px #000000;
+	font-size: 30px;
+	width: 90%;
+	line-height: 40px;
+	margin-top: 50px;
+	}
+
+	#searchStatistics h1{
+
+		line-height:60px;
+	}
+
+	#searchStatistics h3{
+		font-size: 15px;
+		margin-top:-15px;
+		line-height:20px;
+		text-decoration: underline 10px;
+	}
+
+	#searchStatistics p{
+		font-size: 15px;
+		margin-top:-10px;
+		line-height:15px;
+	}
+
+	#phStatistics {
+	padding-left: 10%;
+	text-align: left;
+	text-shadow: 4px 4px 20px #000000;
+	font-size: 30px;
+	width: 90%;
+	line-height: 40px;
+	margin-top: 50px;
+	}
+
+	#phStatistics h1{
+
+		line-height:60px;
+	}
+
+	#phStatistics h3{
+		font-size: 20px;
+		margin-top:-10px;
+		line-height:20px;
+		text-decoration: underline 10px;
+	}
+
+	#phStatistics p{
+		font-size: 17px;
+		margin-top:-10px;
+		line-height:20px;
+	}
 }
