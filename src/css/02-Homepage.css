@@ -3,12 +3,14 @@
 	background: #0c0c0c;
 	text-align: center;
 	color: #ffffff;
-	height: 1000px;
+	height: 950px;
+
 }
 
 #homeIntro_text {
 	float: center;
 	text-align: center;
+		padding-top: 100px;
 }
 
 #homeIntro_text h2 {
@@ -37,7 +39,7 @@
 	text-align: center;
 	display: flex;
 	box-sizing: border-box;
-	top: 500px;
+	top: 450px;
 	left: 50%;
 	width:100%;
 	transform: translate(-50%, -50%);
@@ -66,7 +68,7 @@
 .slide {
 	min-width: 100%;
 	transition: 0.5s;
-	height: 1000px;
+	height: 950px;
 }
 
 #goLeft {
@@ -109,7 +111,7 @@
 	padding-left: 10%;
 	text-align: left;
 	text-shadow: 4px 4px 20px #000000;
-	margin-top: 150px
+	margin-top: 80px
 }
 
 /*Start of phStatistics Styles*/
@@ -121,7 +123,7 @@
 	font-size: 40px;
 	width: 100%;
 	
-	margin-top: 150px
+	margin-top: 80px
 }
 
 #phStatistics p{
@@ -153,7 +155,7 @@
 	font-size: 40px;
 	width: 100%;
 	line-height: 40px;
-	margin-top: 150px
+	margin-top: 80px
 }
 
 #searchStatistics p{
@@ -388,7 +390,10 @@
 	.slide {
 		margin-top: 35%;
 	}
-	#homeIntro_text h2 {
-		padding-top: 150px;
-	}
+
+/*Slideshow Size*/
+#homeIntro { height: 850px; }
+#statistics_slider { top: 300px; }
+.slide { height: 850px;}
+
 }
