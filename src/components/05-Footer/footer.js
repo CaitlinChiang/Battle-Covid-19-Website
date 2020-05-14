@@ -6,7 +6,6 @@ function Footer(props) {
 		<footer>
 				<div class="container">
 
-
 					<div id="homeIntro_text" class="fade-in">
 						<h2>Fight Covid-19 | <span class="highlight">Philippines</span></h2>
 						<h4>Dear Countrymen,</h4> <br />
@@ -24,8 +23,6 @@ function Footer(props) {
 								    </div>
 								</button>
 							
-									  
-							
 							    <button onClick={props.goHealth} id="healthButton">
 							    	<img src="/Images/5.png" width="100%;"/>
 									<div class="card-container">
@@ -33,8 +30,6 @@ function Footer(props) {
 								    	<p>Physical and mental health are most especially crucial during these times. We must try our best to remain positive, stay sane, and counter the negativity with a fresh attitude.</p>
 									</div>
 								</button>
-							
-									
 							
 								<button onClick={props.goDonate} id="donateButton">
 										<img src="/Images/4.png" width="100%;"/>

@@ -13,9 +13,7 @@ class Messages extends Component {
 	componentDidMount = async () => {
 		firebase.database().ref('messages').on('value', snapshot => {
 			let statements = []
-			snapshot.forEach((snap) => {
-				statements.push(snap.val())
-			})
+			snapshot.forEach((snap) => { statements.push(snap.val()) })
 			this.setState({ statements })
 		})
 	}
