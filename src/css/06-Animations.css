@@ -95,10 +95,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .overflow-container::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
 }
 
 .overflow-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(#DC143C, #FF7979);
-    border-radius: 6px;
+    background: grey;
 }

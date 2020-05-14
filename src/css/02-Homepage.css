@@ -304,22 +304,21 @@
 		text-align: left;
 	}
 
-	#globalStatistics p{
-	font-size: 30px;
-}
+	#globalStatistics p {
+		font-size: 30px;
+	}
 
 	#phStatistics {
-	padding-left: 10%;
-	text-align: left;
-	text-shadow: 4px 4px 20px #000000;
-	font-size: 30px;
-	width: 90%;
-	line-height: 40px;
-	margin-top: 50px;
+		padding-left: 10%;
+		text-align: left;
+		text-shadow: 4px 4px 20px #000000;
+		font-size: 30px;
+		width: 90%;
+		line-height: 40px;
+		margin-top: 50px;
 	}
 
 	#phStatistics h1{
-
 		line-height:70px;
 	}
 
@@ -350,28 +349,27 @@
 	}
 
 	#searchStatistics {
-	padding-left: 10%;
-	text-align: left;
-	text-shadow: 4px 4px 20px #000000;
-	font-size: 30px;
-	width: 90%;
-	line-height: 40px;
-	margin-top: 50px;
+		padding-left: 10%;
+		text-align: left;
+		text-shadow: 4px 4px 20px #000000;
+		font-size: 30px;
+		width: 90%;
+		line-height: 40px;
+		margin-top: 50px;
 	}
 
-	#searchStatistics h1{
-
+	#searchStatistics h1{ 
 		line-height:70px;
 	}
 
-	#searchStatistics h3{
+	#searchStatistics h3 {
 		font-size: 20px;
 		margin-top:-10px;
 		line-height:20px;
 		text-decoration: underline 10px;
 	}
 
-	#searchStatistics p{
+	#searchStatistics p {
 		font-size: 20px;
 		margin-top:-10px;
 		line-height:20px;
@@ -417,9 +415,7 @@
 
 
 
-	#globalImage img, #phImage img, #searchImage img {
-		display: none;
-	}
+	
 	#statistics_slider {
 		min-height: 113%;
 		width: 100;
