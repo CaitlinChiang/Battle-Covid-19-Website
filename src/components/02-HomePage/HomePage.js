@@ -1,5 +1,5 @@
 import React from 'react'
-import Slider from './statsSlider'
+import Slider from './homeSlider'
 
 
 function DisplayHomePage() {

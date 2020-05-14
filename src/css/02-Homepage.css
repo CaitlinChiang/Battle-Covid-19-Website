@@ -4,7 +4,6 @@
 	text-align: center;
 	color: #ffffff;
 	height: 950px;
-
 }
 
 #homeIntro_text {
@@ -48,6 +47,10 @@
 	animation-name: background-change;
   	animation-duration: 300s;
   	animation-iteration-count: infinite;
+}
+
+#statistics_slider button {
+	background: transparent;
 }
 
 @keyframes background-change {
@@ -115,7 +118,7 @@
 	line-height: 80px;
 }
 
-#globalStatistics p{
+#globalStatistics p {
 	font-size: 50px;
 }
 
@@ -127,14 +130,13 @@
 	text-shadow: 4px 4px 20px #000000;
 	font-size: 40px;
 	width: 100%;
-	
 	margin-top: 80px
 }
 
-#phStatistics p{
+#phStatistics p {
 	font-size: 35px;
-	margin-top:-10px;
-	line-height:20px;
+	margin-top: -10px;
+	line-height: 25px;
 }
 
 .phStatistics_row {
@@ -147,9 +149,10 @@
   
 .phStatistics_container {
 	width:70%;
-	
 }
 /*End of phStatistics Styles*/
+
+
 
 /*Start of searchStatistics Styles*/
 #searchStatistics {
@@ -159,14 +162,13 @@
 	text-shadow: 4px 4px 20px #000000;
 	font-size: 40px;
 	width: 100%;
-	
 	margin-top: 80px
 }
 
-#searchStatistics p{
+#searchStatistics p {
 	font-size: 30px;
-	margin-top:-10px;
-	line-height:20px;
+	margin-top: -10px;
+	line-height: 25px;
 }
 
 .searchStatistics_row {
@@ -273,6 +275,7 @@
 	color: #d3d3d3;
 	font-weight: bold;
 }
+
 
 
 @media(max-width: 920px) {
