@@ -1,25 +1,21 @@
 import React from 'react'
 import Verse from './BibleVerses'
+import Slider from './donateSlider'
 
 
 function DisplayDonatePage() {
 	return(
 		<div>
-			<section id="donateIntro">
-				<div class="container">
-					<div id="donateIntro_text" class="fade-in">
-						<h2>Donate</h2>
-						<p>"No one has ever become poor by giving." <br /> - Anne Frank</p>
-					</div>
-					<a href="#donateContent"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
-				</div>
+
+			<section id="donateCarousel">
+				<Slider />
 			</section>
 
-			<section id="donateContent">
+			<section id="donateSection1">
 				<div class="container">
-					<div id="donateInfo" class="overflow-container">
-						<h3>Here are amazing organizations that you can help out:</h3>
-						<p id="warning">(Reliable Sources)</p>
+					<div id="donateSection1_text" class="fade-in">
+						<h2>Donate</h2>
+						<p>Here are amazing organizations that you can help out:</p>
 						<div class="fade-in">
 							<ul>
 								<li><a href="https://helpfromhome.ph/">Help Frontliners and Families at Risk!</a></li>
@@ -30,11 +26,20 @@ function DisplayDonatePage() {
 							</ul>
 						</div>
 					</div>
+
+					
+						
+					
+
 				</div>
+			</section>
+
+			<section id="donateSection2">
 				<div class="container">
-					<div id="versesSection">
+					
 						<Verse />
-					</div>
+					
+
 				</div>
 			</section>
 		</div>
