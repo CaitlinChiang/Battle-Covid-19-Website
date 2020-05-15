@@ -20,7 +20,7 @@ class Slider extends Component {
 				})}
 				<button id="goLeft" onClick={this.goLeft}><i class="arrow left"></i></button>
 				<button id="goRight" onClick={this.goRight}><i class="arrow right"></i></button>
-				<a href="#healthResources"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
+				<a href="#healthSection1"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
 			</div>
 		)
 	}
@@ -47,7 +47,7 @@ class Emergencies extends Component {
 					<h5>{this.today()}</h5>
 					<h1>EMERGENCY PROCEDURES</h1>
 					<p>Do not hesitate reaching out to hotlines whenever you are facing an emergency.</p>
-					<a href="#emergencies">Learn More</a>
+					<a href="#healthSection1">Learn More</a>
 				</div>
 			</div>
 		)
@@ -73,7 +73,7 @@ class MentalHealth extends Component {
 					<h5>{this.today()}</h5>
 					<h1>MENTAL HEALTH</h1>
 					<p>Mental health is especially crucial in these times. Take care of it, and your future self will be thanking you.</p>
-					<a href="#mentalHealth">Learn More</a>
+					<a href="#healthSection2">Learn More</a>
 				</div>
 			</div>
 		)
@@ -99,7 +99,7 @@ class PhysicalHealth extends Component {
 					<h5>{this.today()}</h5>
 					<h1>PHYSICAL HEALTH</h1>
 					<p>Staying physically healthy will help you feel good in the inside, and help relieve negativity from your system.</p>
-					<a href="#physicalHealth">Learn More</a>
+					<a href="#healthSection3">Learn More</a>
 				</div>
 			</div>
 		)
