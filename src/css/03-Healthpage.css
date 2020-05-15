@@ -1,194 +1,145 @@
-/*Introduction*/
-#healthIntro {
+/*STYLESHEET FOR THE HEALTHPAGE(TAB2))*/
+
+/*START OF HEALTH(TAB2) [SECTION 1] EMERGENCIES*/
+#healthSection1 {
 	background-color: #0c0c0c;
-	height: 920px;
 	text-align: center;
 	color: #ffffff;
+	position: relative;
+	height: 650px;
+	padding-top: 100px;
 }
 
-#healthIntro_text {
-	margin-top: 150px;
+#healthSection1_text {
 	float: center;
 	text-align: center;
 }
 
-#healthIntro_text h2 {
+#healthSection1_text h2 {
 	font-size: 40px;
 	float: center;
 }
 
-#healthIntro_text p {
+#healthSection1_text p {
 	font-size: 20px;
 	float: center;
 	margin-top: 0;
 }
 
-
-
-/*Slider*/
-#health_slider {
-	background: linear-gradient(-45deg, #FFBFBA, #FF4949, #FFBA7D, #FF9232);
-	background-size: 400% 400%;
-	text-align: center;
-	display: flex;
-	box-sizing: border-box;
-	top: 450px;
-	left: 50%;
-	width:100%;
-	transform: translate(-50%, -50%);
-	position: relative;
-	align-content: center;
-	animation: change 10s ease-in-out infinite;
+#healthSection1 ul {
+	list-style: none;
 }
 
-@keyframes change {
-	0% {background-position: 0 50%;}
-	50% {background-position: 100% 50%;}
-	100% {background-position: 0 50%;}
-}
-
-#health_slider button {
-	background: transparent;
-}
-
-.slide {
-	min-width: 100%;
-	transition: 0.5s;
-	height: 950px;
-}
-
-#goLeft {
-	position: absolute;
-	top: 50%;
-	left: 4%;
-	transform: translateY(-50%);
-}
-
-#goRight {
-	position: absolute;
-	top: 50%;
-	right: 4%;
-	transform: translateY(-50%);
-}
-
-.arrow {
-  border: solid #FFE6E6;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 7px;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
-
-
-/*Slide Captions*/
-#caption {
-	margin-top: 200px;
-	text-align: center;
-	font-size: 30px;
-	margin-left: 100px;
-	margin-right: 100px;
-}
-
-#caption button a {
+#healthSection1 ul li {
+	margin-top: 5px;
+	font-size: 22px;
+	color: lightcoral;
 	text-decoration: none;
 }
 
-#caption button a {
-	letter-spacing: 1px;
-	background: #ffffff;
-	border-radius: 0px;
-	margin-right: 5px;
-	color: #000000;
-	padding: 15px;
-	border-radius: 5px;
-	transition: 0.7s;
+#healthSection1 ul li:hover {
+	color: #d3d3d3;
+	font-weight: bold;
 }
-
-#caption button a:hover {
-	font-weight: normal;
-	color: #ffffff;
-	background: grey;
-	transition:0.5s;
-}
+/*END OF HEALTH(TAB2) [SECTION 1] EMERGENCIES*/
 
 
-
-/*Health Resources*/
-#warning {
-	color: #D8D8D8;
-}
-
-#physicalResources, #emergencyResources, #mentalResources {
-	background-color: #0c0c0c;
+/*START OF HEALTH(TAB2) [SECTION 2] MENTAL HEALTH*/
+#healthSection2 {
+	background-color: #010101;
 	text-align: center;
 	color: #ffffff;
 	position: relative;
-	min-height: 500px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	height: 750px;
+	padding-top: 100px;
 }
 
-#emergencyResources {
-	background-color: #B5B5B5;
-	min-height: 200px;
-}
-
-#mentalResources {
-	background-color: #868686;
-	min-height: 400px;
-}
-
-#physicalResources {
-	background-color: #5C5C5C;
-	min-height: 400px;
-}
-
-#healthResources_text {
+#healthSection2_text {
 	float: center;
 	text-align: center;
 }
 
-#healthResources_text ul a {
-	color: #FFBEBE;
-	text-decoration: none;
+#healthSection2_text h2 {
+	font-size: 40px;
+	float: center;
 }
 
-#physicalResources ul li, #emergencyResources ul li, #mentalResources ul li  {
-	margin-top: 5px;
-	font-size: 17px;
-	margin-right: 10px;
-	margin-left: 10px;
+#healthSection2_text p {
+	font-size: 20px;
+	float: center;
+	margin-top: 0;
+}
+
+#healthSection2 ul {
 	list-style: none;
 }
 
-#physicalResources ul a:hover, #emergencyResources ul a:hover, #mentalResources ul a:hover {
+#healthSection2 ul a {
+	color: lightcoral;
+	text-decoration: none;
+}
+
+#healthSection2 ul li {
+	margin-top: 5px;
+	font-size: 17px;
+}
+
+#healthSection2 ul a:hover {
 	color: #d3d3d3;
 	font-weight: bold;
 }
+/*END OF HEALTH(TAB2) [SECTION 2] MENTAL HEALTH*/
 
-#emergencies h3, #mentalHealth h3, #physicalHealth h3 {
-	font-size: 30px;
-	margin-bottom: 10px;
+
+/*START OF HEALTH(TAB2) [SECTION 3] PHYSICAL HEALTH*/
+#healthSection3 {
+	background-color: #0c0c0c;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+	height: 700px;
+	padding-top: 100px;
 }
 
-#contentLinks {
-	padding: 0px 20px 20px 20px;
+#healthSection3_text {
+	float: center;
+	text-align: center;
 }
 
+#healthSection3_text h2 {
+	font-size: 40px;
+	float: center;
+}
+
+#healthSection3_text p {
+	font-size: 20px;
+	float: center;
+	margin-top: 0;
+}
+
+#healthSection3 ul {
+	list-style: none;
+}
+
+#healthSection3 ul a {
+	color: lightcoral;
+	text-decoration: none;
+}
+
+#healthSection3 ul li {
+	margin-top: 5px;
+	font-size: 17px;
+}
+
+#healthSection3 ul a:hover {
+	color: #d3d3d3;
+	font-weight: bold;
+}
+/*END OF HEALTH(TAB2) [SECTION 3] PHYSICAL HEALTH*/
 
 
-/*Messages*/
-#healthContent {
+/*END OF HEALTH(TAB2) [SECTION 4] POSITIVE REAFFIRMATION*/
+#healthSection4 {
 	background: linear-gradient(-45deg, #FFBFBA, #FF4949, #FFBA7D, #FF9232);
 	background-size: 400% 400%;
 	animation: change 10s ease-in-out infinite;
@@ -200,15 +151,17 @@
 
 #affirmationsSection {
 	background-color: white;
-	margin-top: 100px;
 	border-radius: 10px;
 	text-align: left;
 	display: block;
-	margin-bottom: 10px;
 	color: black;
 	padding: 100px 100px 100px 100px;
 	margin:100px;
+}
 
+
+#affirmationsSection h1 {
+	font-size: 30px;
 }
 
 #affirmationsForm input {
@@ -235,36 +188,75 @@
 }
 
 .messages_buttons button {
-	margin-top: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
+	margin:10px
 }
 
 
 
-@media(max-width: 768px) {
-	#healthInfo,
+@media(max-width: 1024px) {
 	#affirmationsSection {
-		text-align: center;
+		background-color: white;
+		display: block;
+		color: black;
+		padding: 50px;
+		margin:40px 0px 40px 0px;
+		text-align: left;
 		float: none;
 	}
-	#affirmationsSection {
-		margin-top: 20px;
-	}
-	#healthIntro_text h2 {
-		padding-top: 25px;
-	}
+
+	#affirmationsForm input {
+	background: transparent;
+	border-bottom: 1px solid black;
+	border-top: none;
+	border-left:none;
+	border-right: none;
+	padding: 0 20px 0 5px;
+	color: #000000;
+	min-height: 30px;
+	font-size: 15px;
+	outline-style: none;
+    width: 400px;
+    text-align: left;
+    margin-bottom:0px;
+}
+
 	#display_statements p {
-		padding-bottom: 20px;
-	} 
-	#healthIntro a img {
-		display: none;
-	} 
-	#emergencies {
-		margin-top: -20px;
-	}
-	#caption {
-		margin-top: 10px;
+		font-size: 15px;
+		margin: 0px;
 	}
 }
+
+@media(max-width: 425px) {
+	#affirmationsSection {
+		background-color: white;
+		display: block;
+		color: black;
+		padding: 50px;
+		margin:40px 0px 40px 0px;
+		text-align: left;
+		float: none;
+	}
+
+	#affirmationsForm input {
+	background: transparent;
+	border-bottom: 1px solid black;
+	border-top: none;
+	border-left:none;
+	border-right: none;
+	padding: 0 20px 0 5px;
+	color: #000000;
+	min-height: 30px;
+	font-size: 15px;
+	outline-style: none;
+    width: 80%;
+    text-align: left;
+    margin-bottom:10px;
+}
+
+	#display_statements p {
+		font-size: 15px;
+		margin: 0px;
+	}
+
+}
+/* END OF POSITIVE AFFIRMATION SECTION */

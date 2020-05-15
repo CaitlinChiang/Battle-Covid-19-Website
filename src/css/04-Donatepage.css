@@ -1,123 +1,4 @@
-/*STYLESHEET FOR THE DONATE(TAB3))*/
-
-/*START OF DONATE(TAB3) [CAROUSEL]*/
-	/*Carousel Container*/
-	#donateCarousel {
-		background: #0c0c0c;
-		text-align: center;
-		color: #ffffff;
-		height: 950px;
-	}
-
-	/*Statistics Slider Container*/
-	#carousel_slider {
-		background-image: url("/Images/2.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		text-align: center;
-		display: flex;
-		box-sizing: border-box;
-		top: 450px;
-		left: 50%;
-		width:100%;
-		transform: translate(-50%, -50%);
-		position: relative;
-		align-content: center;
-		animation-name: background-change;
-	  	animation-duration: 300s;
-	  	animation-iteration-count: infinite;
-	}
-
-	.slide {
-		min-width: 100%;
-		transition: 0.5s;
-		height: 950px;
-	}
-
-	#donateSlider_text {
-			float: left;
-			font-size: 40px;
-			padding-left: 10%;
-			text-align: left;
-			text-shadow: 4px 4px 20px #000000;
-			margin-top: 80px;
-			line-height: 80px;
-		}
-
-		#donateSlider_text p {
-			font-size: 40px;
-		}
-
-	/*Slider Buttons*/
-	#carousel_slider button {
-		background: transparent;
-	}
-
-	.arrow {
-	  border: solid #FFE6E6;
-	  border-width: 0 3px 3px 0;
-	  display: inline-block;
-	  padding: 7px;
-	}
-
-	#carousel_slider a {
-		background: white;
-		padding: 20px 20px 20px 20px;
-		color: black;
-		border-radius: 10px;
-		font-size: 30px;
-		text-decoration: none;
-		transition: 0.5s;
-	}
-
-	#carousel_slider a:hover {
-		padding: 20px 30px 20px 30px;
-		transition: 0.5s;
-	}
-
-
-	/*Background Changing Animation*/
-	@keyframes background-change {
-	  0% {background-image: url("/Images/3.png");}
-	  10%{background-image: url("/Images/4.png");}
-	  20%{background-image: url("/Images/5.png");}
-	  30%{background-image: url("/Images/6.png");}
-	  40%{background-image: url("/Images/7.png");}
-	  50% {background-image: url("/Images/8.png");}
-	  60%{background-image: url("/Images/9.png");}
-	  70%{background-image: url("/Images/10.png");}
-	  80%{background-image: url("/Images/3.png");}
-	  90%{background-image: url("/Images/4.png");}
-	  100%{background-image: url("/Images/2.png");}
-	}
-
-	/*Switch Display*/
-	#goLeft {
-		position: absolute;
-		top: 50%;
-		left: 4%;
-		transform: translateY(-50%);
-	}
-
-	#goRight {
-		position: absolute;
-		top: 50%;
-		right: 4%;
-		transform: translateY(-50%);
-	}
-
-	.right {
-	  transform: rotate(-45deg);
-	  -webkit-transform: rotate(-45deg);
-	}
-
-	.left {
-	  transform: rotate(135deg);
-	  -webkit-transform: rotate(135deg);
-	}
-
-
-/*END OF DONATE(TAB3) [CAROUSEL]*/
+/*STYLESHEET FOR THE DONATEPAGE(TAB3))*/
 
 /*START OF DONATE(TAB3) [SECTION 1]*/
 #donateSection1 {
@@ -125,7 +6,7 @@
 	text-align: center;
 	color: #ffffff;
 	position: relative;
-	height: 500px;
+	height: 550px;
 	padding-top: 100px;
 }
 
@@ -165,95 +46,6 @@
 }
 /*END OF DONATE(TAB3) [SECTION 1]*/
 
-
-
-/*START OF RESPONSIVE CODES*/
-@media(max-width: 920px) {
-
-	#donateSlider_text{
-		margin-left: 0;
-		margin-top: 40px;
-		font-size: 30px;
-		line-height: 70px;
-		text-align: left;
-	}
-
-	#donateSlider_text p {
-		font-size: 28px;
-	}
-
-	#carousel_slider a {
-		background: white;
-		padding: 20px 20px 20px 20px;
-		color: black;
-		border-radius: 10px;
-		font-size: 20px;
-		text-decoration: none;
-		transition: 0.5s;
-	}
-
-	#carousel_slider a:hover {
-		padding: 20px 30px 20px 30px;
-		transition: 0.5s;
-	}
-
-	#carousel_slider {
-		min-height: 113%;
-		width: 100;
-		padding: 0px;
-		margin-top: 5%;
-	}
-
-	.slide {
-		margin-top: 35%;
-	}
-
-
-	/*Slideshow Size*/
-	#donateCarousel { height: 700px; }
-	#carousel_slider { top: 150px; }
-	.slide { height: 700px;}
-}
-
-@media(max-width: 739px) {
-/*Slideshow Size*/
-#donateCarousel { height: 630px; }
-#carousel_slider { top: 220px; }
-.slide { height: 700px;}
-
-
-	#donateSlider_text{
-		margin-left: 0;
-		margin-top: 40px;
-		font-size: 30px;
-		line-height: 60px;
-		text-align: left;
-	}
-
-		#donateSlider_text p{
-		margin-left: 0;
-		margin-top: 40px;
-		font-size: 20px;
-		line-height: 40px;
-		text-align: left;
-	}
-
-	#carousel_slider a {
-		background: white;
-		padding: 15px 15px 15px 15px;
-		color: black;
-		border-radius: 10px;
-		font-size: 18px;
-		text-decoration: none;
-		transition: 0.5s;
-	}
-
-	#carousel_slider a:hover {
-		padding: 15px 25px 15px 25px;
-		transition: 0.5s;
-	}
-}
-/*END OF RESPONSIVE CODES*/
 
 /*START OF VERSES [SECTION 2]*/
 #donateSection2 {
@@ -295,11 +87,12 @@
 
 #retrieve_verse form input[type=text] {
 	background: white;
-	padding: 0 20px 0 5px;
+	padding: 0 10px 0 10px;
 	color: #000000;
 	height: 38px;
 	font-size: 15px;
-    width: 250px;
+    width: 80%;
+    max-width: 200px;
     display: inline-block;
     text-align: center;
     margin: 10px; 
@@ -310,15 +103,15 @@
 
 #retrieve_verse form input[type=integer] {
 	background: white;
-	padding: 0 20px 0 5px;
+	padding: 0 10px 0 10px;
 	color: #000000;
 	height: 38px;
-	font-size: 15px;
-    width: 70px;
+	font-size: 14px;
+    width: 50px;
     display: inline-block;
     text-align: center;
-    margin: 10px; 
-    border-radius: 10px;
+    margin: 0px; 
+    border-radius:10px;
     border: none;
 }
 

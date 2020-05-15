@@ -26,11 +26,6 @@ function DisplayDonatePage() {
 							</ul>
 						</div>
 					</div>
-
-					
-						
-					
-
 				</div>
 			</section>
 

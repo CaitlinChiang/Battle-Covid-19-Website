@@ -52,7 +52,7 @@ class Verse extends Component {
 					<form onSubmit={this.getChosenVerse} autocomplete="off" id="versesForm">
 						<input type="text" name="book" placeholder="Book" />
 						<input type="integer" name="chapter" placeholder="Chapter" />
-						<p> : </p>
+						<p>:</p>
 						<input type="integer" name="verse" placeholder="Verse" />
 						<div id="verseTextButtons">
 							<button class="ripple">Search</button>
