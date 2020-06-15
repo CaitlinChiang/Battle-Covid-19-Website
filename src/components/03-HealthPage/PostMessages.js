@@ -45,12 +45,13 @@ class Messages extends Component {
 		
 		return (	
 			<div>
+			<h1>Positive Affirmation Section</h1>
 				<form onSubmit={this.handleSubmit} autocomplete="off" id="affirmationsForm">
 					<input onChange={this.handleChange} value={this.state.content} type="text" name="statement" placeholder="Write Something Positive!"/>
-					<div class="messages_buttons">
+					
 						<button class="ripple">Add</button>
 						<button onClick={this.clear} class="ripple">Clear</button>
-					</div>
+					
 				</form>
 				
 				<div class="overflow-container">

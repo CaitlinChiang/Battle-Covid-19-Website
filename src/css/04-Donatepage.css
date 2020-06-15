@@ -1,106 +1,69 @@
-/*Introduction*/
-#donateIntro {
-	background: #0c0c0c;
-	min-height: 100vh;
+/*STYLESHEET FOR THE DONATEPAGE(TAB3))*/
+
+/*START OF DONATE(TAB3) [SECTION 1]*/
+#donateSection1 {
+	background-color: #0c0c0c;
 	text-align: center;
 	color: #ffffff;
+	position: relative;
+	height: 550px;
+	padding-top: 100px;
 }
 
-#donateIntro_text {
-	margin-top: 150px;
+#donateSection1_text {
 	float: center;
 	text-align: center;
 }
 
-#donateIntro_text h2 {
+#donateSection1_text h2 {
 	font-size: 40px;
 	float: center;
 }
 
-#donateIntro_text p {
+#donateSection1_text p {
 	font-size: 20px;
 	float: center;
 	margin-top: 0;
 }
 
-
-
-/*Information*/
-#donateContent {
-	min-height: 100vh;
-	background-color: #3f0000;
-	text-align: center;
-	color: #ffffff;
-	align-content: center;
-}
-
-#donateInfo {
-	background-color: #000000;
-	min-height: 300px;
-	margin-top: 250px;
-	border-radius: 10px;
-	text-align: center;
-	display: block;
-	position: absolute;
-	left: 50%;
-	width: 90%;
-	transform: translate(-50%, -50%);
-	margin-bottom: 20px;
-	z-index: 999;
-}
-
-#donateInfo h3 {
-	font-size: 20px;
-	padding-top: 20px;
-	margin: 10px;
-	padding-bottom: 15px;
-}
-
-#donateInfo h4 {
-	font-size: 20px;
-}
-
-#donateInfo ul {
+#donateSection1 ul {
 	list-style: none;
-	padding-bottom: 10px;
 }
 
-#donateInfo ul li {
-	margin-top: 5px;
-	font-size: 17px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-#donateInfo ul a {
+#donateSection1 ul a {
 	color: lightcoral;
 	text-decoration: none;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
-#donateInfo ul a:hover {
+#donateSection1 ul li {
+	margin-top: 5px;
+	font-size: 17px;
+}
+
+#donateSection1 ul a:hover {
 	color: #d3d3d3;
 	font-weight: bold;
 }
+/*END OF DONATE(TAB3) [SECTION 1]*/
 
 
-
-/*Verses*/
-#versesSection {
-	background-color: #000000;
-	width: 100%;
-	margin: auto;
-	min-height: 200px;
-	margin-top: 440px;
-	border-radius: 10px;
+/*START OF VERSES [SECTION 2]*/
+#donateSection2 {
+	background: linear-gradient(-45deg, #FFBFBA, #FF4949, #FFBA7D, #FF9232);
+	background-size: 400% 400%;
+	animation: change 10s ease-in-out infinite;
 	text-align: center;
-	display: inline;
-	margin-bottom: 10px;
-	display: block;
+	color: #ffffff;
 	position: relative;
-	left: 50%;
-	transform: translate(-50%);
+	min-height: 400px;
+	height: auto;
+	padding: 50px;
+}
+
+@keyframes change {
+	0% {background-position: 0 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0 50%;}
 }
 
 #retrieve_verse {
@@ -109,54 +72,47 @@
 
 #retrieve_verse form {
 	padding-top: 20px;
-	margin: 20px;
 	padding-bottom: 20px;
 	text-align: center;
 }
 
 #verseText {
 	padding-top: 5px;
+	font-size: 30px;
 }
 
 #retrieve_verse button {
-	margin-top: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 10px
 }
 
 #retrieve_verse form input[type=text] {
-	background: transparent;
-	padding: 0 20px 0 5px;
-	color: #ffffff;
+	background: white;
+	padding: 0 10px 0 10px;
+	color: #000000;
 	height: 38px;
 	font-size: 15px;
-	outline-style: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: solid #A0A0A0 1px;
-    margin-right: 15px;
-    width: 250px;
+    width: 80%;
+    max-width: 200px;
     display: inline-block;
     text-align: center;
+    margin: 10px; 
+    border-radius: 10px;
+    border: none;
+
 }
 
 #retrieve_verse form input[type=integer] {
-	background: transparent;
-	padding: 0 20px 0 5px;
-	color: #ffffff;
+	background: white;
+	padding: 0 10px 0 10px;
+	color: #000000;
 	height: 38px;
-	font-size: 15px;
-	outline-style: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: solid #A0A0A0 1px;
-    margin-right: 15px;
-    margin-left: 15px;
-    width: 70px;
+	font-size: 14px;
+    width: 50px;
     display: inline-block;
     text-align: center;
+    margin: 0px; 
+    border-radius:10px;
+    border: none;
 }
 
 #retrieve_verse p {
@@ -198,27 +154,12 @@
 		text-align: center;
 	}
 	#retrieve_verse form input[type=text], #retrieve_verse form input[type=integer] {
-		margin: 0;
+		margin: 10px;
 		text-align: center;
 	}
-	#donateIntro_text h2 {
-		padding-top: 25px;
-	}
-	#donateInfo {
-		margin-bottom: 20px;
-		margin-top: 220px;
-	}
+	
 	#verseText h1 {
 		padding: 10px;
 	}
-	#donateInfo ul a {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	#donateInfo ul {
-		padding-bottom: 10px;
-	}
-	#donateIntro a img {
-		display: none;
-	}
 }
+/*END OF VERSES*/

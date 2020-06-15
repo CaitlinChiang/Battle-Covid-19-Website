@@ -6,7 +6,7 @@ function Footer(props) {
 		<footer>
 				<div class="container">
 
-					<div id="homeIntro_text" class="fade-in">
+					<div id="footer_text" class="fade-in">
 						<h2>Fight Covid-19 | <span class="highlight">Philippines</span></h2>
 						<h4>Dear Countrymen,</h4> <br />
 						<p>Let us fight this pandemic together. It is time to start caring about fellow Filipinos.</p>

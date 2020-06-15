@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class Slider extends Component {
 
 	state = {
-		sliderContents: [<Emergencies />, <MentalHealth />, <PhysicalHealth />],
+		sliderContents: [<Slider1 />, <Slider2 />],
 		x: 0
 	}
 
@@ -20,7 +20,7 @@ class Slider extends Component {
 				})}
 				<button id="goLeft" onClick={this.goLeft}><i class="arrow left"></i></button>
 				<button id="goRight" onClick={this.goRight}><i class="arrow right"></i></button>
-				<a href="#healthSection1"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
+				<a href="#donateSection1"><img class="downArrow" src="https://image.flaticon.com/icons/svg/2316/2316598.svg" /></a>
 			</div>
 		)
 	}
@@ -28,8 +28,10 @@ class Slider extends Component {
 
 export default Slider
 
+
+
 /*Carousel Slider 1*/
-class Emergencies extends Component {
+class Slider1 extends Component {
 
 	today = () => {
 		let newDate = new Date()
@@ -45,9 +47,10 @@ class Emergencies extends Component {
 			<div class="slideDown">
 				<div id="donateSlider_text">
 					<h5>{this.today()}</h5>
-					<h1>EMERGENCY PROCEDURES</h1>
-					<p>Do not hesitate reaching out to hotlines whenever you are facing an emergency.</p>
-					<a href="#healthSection1">Learn More</a>
+					<h1>HELP DONATE TODAY</h1>
+					<p>"No one has ever become poor by giving."- Anne Frank</p>
+					<p>Check out the different organisations you can help support.</p>
+					<a href="#donateSection1">Learn More</a>
 				</div>
 			</div>
 		)
@@ -55,7 +58,7 @@ class Emergencies extends Component {
 }
 
 /*Carousel Slider 2*/
-class MentalHealth extends Component {
+class Slider2 extends Component {
 
 	today = () => {
 		let newDate = new Date()
@@ -71,35 +74,9 @@ class MentalHealth extends Component {
 			<div class="slideDown">
 				<div id="donateSlider_text">
 					<h5>{this.today()}</h5>
-					<h1>MENTAL HEALTH</h1>
-					<p>Mental health is especially crucial in these times. Take care of it, and your future self will be thanking you.</p>
-					<a href="#healthSection2">Learn More</a>
-				</div>
-			</div>
-		)
-	}
-}
-
-/*Carousel Slider 3*/
-class PhysicalHealth extends Component {
-
-	today = () => {
-		let newDate = new Date()
-		let dateToday = newDate.getDate();
-		let month = newDate.getMonth() + 1;
-		let year = newDate.getFullYear();
-
-		return month + "/" + dateToday + "/" + year
-	}
-
-	render() {
-		return (
-			<div class="slideDown">
-				<div id="donateSlider_text">
-					<h5>{this.today()}</h5>
-					<h1>PHYSICAL HEALTH</h1>
-					<p>Staying physically healthy will help you feel good in the inside, and help relieve negativity from your system.</p>
-					<a href="#healthSection3">Learn More</a>
+					<h1>DAILY BIBLE READINGS</h1>
+					<p>Read a Verse, Get Inspired!</p>
+					<a href="#donateSection2">Read a Verse</a>
 				</div>
 			</div>
 		)

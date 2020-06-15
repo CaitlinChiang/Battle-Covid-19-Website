@@ -43,15 +43,16 @@ class Verse extends Component {
 
 	render() {
 		return (
-			<div>
+			<div class="fade-in">
 				<div id="verseText">
-					<h1>Read a Verse, Get Inspired!</h1>
+					<h2>Daily Bible Readings</h2>
+					<p>Read a Verse, Get Inspired!</p>
 				</div>
 				<div id="retrieve_verse">
 					<form onSubmit={this.getChosenVerse} autocomplete="off" id="versesForm">
 						<input type="text" name="book" placeholder="Book" />
 						<input type="integer" name="chapter" placeholder="Chapter" />
-						<p> : </p>
+						<p>:</p>
 						<input type="integer" name="verse" placeholder="Verse" />
 						<div id="verseTextButtons">
 							<button class="ripple">Search</button>
