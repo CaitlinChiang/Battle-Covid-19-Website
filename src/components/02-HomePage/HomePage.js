@@ -31,7 +31,7 @@ function DisplayHomePage() {
 					</div>
 				</div>
 			</section>
-							
+
 		</div>
 	)
 }
